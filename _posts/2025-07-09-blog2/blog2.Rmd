@@ -12,8 +12,12 @@ output:
 ---
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r}
+library(tidyverse)
+ggplot(mtcars, aes(mpg, hp))+
+  geom_point()+
+  geom_smooth()+
+  theme_bw()
 ```
 
 Distill is a publication format for scientific and technical writing, native to the web.
