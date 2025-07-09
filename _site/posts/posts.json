@@ -15,5 +15,22 @@
     "preview": {},
     "last_modified": "2025-07-09T18:05:50-05:00",
     "input_file": {}
+  },
+  {
+    "path": "posts/2025-07-09-blog2/",
+    "title": "Blog2",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2025-07-09",
+    "categories": [],
+    "contents": "\r\n\r\n\r\nlibrary(tidyverse)\r\nggplot(mtcars, aes(mpg, hp))+\r\n  geom_point()+\r\n  geom_smooth()+\r\n  theme_bw()\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": "posts/2025-07-09-blog2/blog2_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2025-07-09T18:29:22-05:00",
+    "input_file": "blog2.knit.md"
   }
 ]
